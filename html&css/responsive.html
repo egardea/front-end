@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div{
+            height: 200px;
+        }
+
+        #green{
+            background-color: green;
+        }
+
+        #red{
+            background-color: red;
+        }
+        @media only screen and (max-width: 450px) {
+            body{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="green"></div>
+    <div id="red"></div>
+</body>
+</html>
